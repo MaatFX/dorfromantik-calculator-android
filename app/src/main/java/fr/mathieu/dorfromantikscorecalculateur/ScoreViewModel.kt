@@ -16,12 +16,10 @@ class ScoreViewModel : ViewModel() {
     val unlockedScore = mutableIntStateOf(0)
     val totalScore = mutableIntStateOf(0)
 
-    init {
-        resetScore()
-    }
-
-    fun resetScore() {
-
+    fun resetScores() {
+        scores.forEachIndexed { index, _ ->
+            updateScore(index, "")
+        }
     }
 
     fun updateScore(id: Int, newScore: String) {
