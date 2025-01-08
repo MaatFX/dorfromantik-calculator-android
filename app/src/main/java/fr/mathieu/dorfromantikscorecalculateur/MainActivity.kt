@@ -197,7 +197,7 @@ fun GlobalScore(viewModel: ScoreViewModel) {
                 .fillMaxWidth()
         ) {
             Text(
-                text = "Score Global",
+                text = "Score Total",
                 style = MaterialTheme.typography.titleMedium,
                 color = MaterialTheme.colorScheme.primary,
                 modifier = Modifier.padding(bottom = 8.dp)
@@ -256,7 +256,7 @@ fun ScoreSection(
             Spacer(modifier = Modifier.height(16.dp))
 
             Text(
-                text = "Score Total",
+                text = "Score",
                 style = MaterialTheme.typography.bodyLarge,
                 color = MaterialTheme.colorScheme.primary,
                 modifier = Modifier.padding(bottom = 8.dp)
