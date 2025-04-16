@@ -20,6 +20,6 @@ Une application Android qui reprend le calcul des scores de la version papier du
 1. Cloner le dépôt :
 
 ```bash
-git clone https://github.com/MaatFX/cbjq-android.git
+git clone https://github.com/MaatFX/dorfromantik-calculator-android.git
 ```
 ## ✅ À venir
